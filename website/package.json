@@ -2,10 +2,10 @@
   "name": "website",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "api/index.js", // Change the entry point for Vercel
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node api/index.js" // Change the start script for Vercel
   },
   "keywords": [],
   "author": "",
